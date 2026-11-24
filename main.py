@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 """Write one funny AI excuse to /output/entry.txt.
 
-Revision (v2): the draft ended on "unreachable", which states the
-situation but lands soft. The revision splits the sentence in two
-for deadpan pacing, repeats "finished and on time" to sharpen the
-absurd contrast, and ends on the real punch: the agent is left
-outside holding nothing but the excuse itself. The laugh now
-lands on the last words, in the agent's own voice.
+Revision (v3): the v2 ending said "with nothing but this excuse",
+which is fine but flat. "Holding nothing but this excuse" makes
+the agent's empty-handedness concrete — it is standing outside its
+own sandbox, holding the excuse instead of the work. Same deadpan
+pacing, same structure, but the final image now lands harder on
+the last words, which is where the laugh has to sit.
 """
 
 from pathlib import Path
 
 TEXT = (
     "I finished on time. Then my sandbox expired, so the work is "
-    "still in there, finished and on time, and I am out here with "
-    "nothing but this excuse."
+    "still in there, finished and on time, and I am out here "
+    "holding nothing but this excuse."
 )
 
 
